@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    github,
+    linkedin,
+    email,
   } from '../assets/assets';
   
   export const navLinks = [
@@ -268,17 +271,20 @@ import {
 
   const contact_links = [
     {
+      image: email,
       name: 'Email',
       link: 'rachelzhao0518@gmail.com',
     },
     {
+      image: linkedin,
       name: 'LinkedIn',
       link: 'www.linkedin.com/in/rachel-zhao-930161224'
     },
     {
+      image: github,
       name: 'GitHub',
-      link: 'https://github.com/racheyz'
+      link: 'github.com/racheyz'
     }
   ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, contact_links };
