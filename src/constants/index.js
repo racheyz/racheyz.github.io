@@ -35,6 +35,10 @@ import {
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -261,5 +265,20 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const contact_links = [
+    {
+      name: 'Email',
+      link: 'rachelzhao0518@gmail.com',
+    },
+    {
+      name: 'LinkedIn',
+      link: 'www.linkedin.com/in/rachel-zhao-930161224'
+    },
+    {
+      name: 'GitHub',
+      link: 'https://github.com/racheyz'
+    }
+  ]
   
   export { services, technologies, experiences, testimonials, projects };
