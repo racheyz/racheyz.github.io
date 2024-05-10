@@ -3,7 +3,7 @@ import React from 'react'
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { services } from '../constants';
+import { interests } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
@@ -41,12 +41,12 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}
                 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am a third year students studying Computer Science at the Universty of British Columbia.
+        I am a second year student studying Computer Science at the Universty of British Columbia. Here are some of my areas of interest!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-            <ServiceCard key={service.title} index={index} {...service} />
+        {interests.map((interest, index) => (
+            <ServiceCard key={interest.title} index={index} {...interest} />
         ))}
       </div>
     </>
