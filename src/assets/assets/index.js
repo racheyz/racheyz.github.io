@@ -5,7 +5,6 @@ import web from "./interests/web.png";
 import machine from "./interests/machine.png";
 import modeling from "./interests/modeling.png";
 
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -13,10 +12,12 @@ import ubc from "./company/ubc.png";
 
 import email from "./socials/email.png";
 import linkedin from "./socials/linkedin.png";
+import github from "./socials/github.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import moodtracker from "./projects/moodtracker.png";
+import upassloader from "./projects/upassloader.png";
+import personalwebsite from "./projects/personalwebsite.png";
+import resturantwebsite from "./projects/resturantwebsite.png";
 
 export {
   logo,
@@ -28,9 +29,10 @@ export {
   menu,
   close,
   ubc,
-  carrent,
-  jobit,
-  tripguide,
+  moodtracker,
+  upassloader,
+  personalwebsite,
+  resturantwebsite,
   email,
   linkedin,
 };

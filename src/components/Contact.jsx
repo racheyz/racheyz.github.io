@@ -1,9 +1,9 @@
 import React from 'react'
 
-import {motion }from 'framer-motion';
+import { motion }from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
-import { slideIn, textVariant } from '../utils/motion';
+import { textVariant } from '../utils/motion';
 import { contact_links } from '../constants';
 import { Tilt } from 'react-tilt';
 
@@ -15,7 +15,7 @@ const Contact = () => {
         <h2 className={styles.sectionHeadText}>Contact.</h2>
       </motion.div>
 
-      <div className='flex justify-center mt-10'>
+        <div className='flex justify-center mt-10'>
           <motion.div variants={textVariant()}
             className='bg-tertiary flex justify-around items-center
                    w-[600px] h-[400px] rounded-2xl border-t-2 border-b-2'>
@@ -31,6 +31,7 @@ const Contact = () => {
             ))}
           </motion.div>
         </div>
+
 
         <div className='flex mt-20 justify-center'>
           <a href="#top"> 

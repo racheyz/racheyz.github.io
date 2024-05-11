@@ -4,9 +4,10 @@ import {
     machine,
     modeling,
     ubc,
-    carrent,
-    jobit,
-    tripguide,
+    moodtracker,
+    upassloader,
+    personalwebsite,
+    resturantwebsite,
     github,
     linkedin,
     email,
@@ -69,58 +70,82 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Mood in Pixels",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A mood tracker application for users to log their emotions over customizable dates. Provides effective, easy to use visualization and summary tools of mood data for those wanting to moniter their emotions for better lifestyle and mental wellbeing.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "java swing",
+          color: "green-text-gradient",
+        },
+        {
+          name: "junit",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: moodtracker,
+      source_code_link: "https://github.com/racheyz/Mood-Tracker",
+    },
+    {
+      name: "Transit Pass Autoloader",
+      description:
+        "An automation script that loads my monthly transit pass for school",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "selenium",
+          color: "green-text-gradient",
+        },
+        {
+          name: "winsdk",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: upassloader,
+      source_code_link: "https://github.com/racheyz/UPass-Autoloader",
+    },
+    {
+      name: "Personal Website",
+      description:
+        "A personal portfolio to showcase everything about me! Created 3D models in blender to add interactive features to the website",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwind css",
           color: "pink-text-gradient",
         },
+        {
+          name: "blender",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
+      image: personalwebsite,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "Resturant Website",
+      description: "A website for the fictional resturant in the film \"Ratatouille \".",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -128,9 +153,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      image: resturantwebsite,
+      source_code_link: "https://github.com/racheyz/Ratatouille-Resturant-Wesbite",
+    }
   ];
 
   const contact_links = [

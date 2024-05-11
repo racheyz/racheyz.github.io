@@ -17,7 +17,7 @@ const Uranus = () => {
         <mesh ref={ref}>
             <hemisphereLight intensity={3} groundColor="black" />
             <primitive object={uranus.scene}
-                       position={[-7, 2.6, -9]}
+                       position={[-7, 5, -9]}
                        rotation={[-1.4, 1.5, -0.1]}/>
         </mesh>
     )
@@ -75,8 +75,8 @@ const Rocket = () => {
         <mesh ref={ref}>
             <hemisphereLight intensity={3} groundColor="black" />
             <primitive object={rocket.scene}
-                        position={[-2.1,-2,-2.01]}
-                        rotation={[0, 1.4, 0]}/>
+                        position={[2,-2, 6.5]}
+                        rotation={[0.3, 1.2, -1]}/>
 
         </mesh>
     )
