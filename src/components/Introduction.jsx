@@ -18,7 +18,7 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className='cursor-pointer w-full h-full'>
+      <div className='cursor-pointer w-full h-full z-0'>
         <SpaceCanvas />
       </div>
 
