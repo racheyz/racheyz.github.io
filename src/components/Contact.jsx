@@ -5,7 +5,6 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 import { contact_links } from '../constants';
-import { Tilt } from 'react-tilt';
 
 const Contact = () => {
   return (
