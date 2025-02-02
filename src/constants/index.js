@@ -3,7 +3,9 @@ import {
     web,
     machine,
     modeling,
+    data,
     ubc,
+    BCCDC,
     moodtracker,
     upassloader,
     personalwebsite,
@@ -38,6 +40,10 @@ import {
       icon: web,
     },
     {
+      title: "Data Science",
+      icon: data,
+    },
+    {
       title: "Machine Learning",
       icon: machine,
     },
@@ -59,10 +65,23 @@ import {
       iconBg: "#383E56",
       date: "Jan 2024 - April 2024",
       points: [
-        "Assisted professor in running tutorial sessions for MATH 101 - Integral Calculus.",
-        "Mentored two sections of 80+ students, grades and provide feedback on assignments.",
-        "Actively communicated with course team to ensure consistency in feedback given to students.",
-        "Participated in the modifying and perfecting of rubrics/class materials",
+        // "Assisted professor in running tutorial sessions for MATH 101 - Integral Calculus.",
+        // "Mentored two sections of 80+ students, grades and provide feedback on assignments.",
+        // "Actively communicated with course team to ensure consistency in feedback given to students.",
+        // "Participated in the modifying and perfecting of rubrics/class materials",
+      ],
+    },
+    {
+      title: "Data Science Research Assistant",
+      company_name: "BC Centre for Disease Control",
+      icon: BCCDC,
+      iconBg: "#383E56",
+      date: "Sept 2024 - April 2025",
+      points: [
+        // "Assisted professor in running tutorial sessions for MATH 101 - Integral Calculus.",
+        // "Mentored two sections of 80+ students, grades and provide feedback on assignments.",
+        // "Actively communicated with course team to ensure consistency in feedback given to students.",
+        // "Participated in the modifying and perfecting of rubrics/class materials",
       ],
     }
   ];
@@ -136,26 +155,26 @@ import {
       image: personalwebsite,
       source_code_link: "https://racheyz.github.io/",
     },
-    {
-      name: "Resturant Website",
-      description: "A website for the fictional resturant in the film \"Ratatouille \".",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: resturantwebsite,
-      source_code_link: "https://github.com/racheyz/Ratatouille-Resturant-Wesbite",
-    }
+    // {
+    //   name: "Resturant Website",
+    //   description: "A website for the fictional resturant in the film \"Ratatouille \".",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "javascript",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: resturantwebsite,
+    //   source_code_link: "https://github.com/racheyz/Ratatouille-Resturant-Wesbite",
+    // }
   ];
 
   const contact_links = [

@@ -38,7 +38,7 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}
                 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am a second year student studying Computer Science at the Universty of British Columbia. Here are some of my areas of interest!
+        I am a third year student studying Computer Science at the Universty of British Columbia. Here are some of my areas of interest!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
