@@ -154,7 +154,7 @@ import {
       ],
       image: personalwebsite,
       source_code_link: "https://racheyz.github.io/",
-    },
+    }
     // {
     //   name: "Resturant Website",
     //   description: "A website for the fictional resturant in the film \"Ratatouille \".",
