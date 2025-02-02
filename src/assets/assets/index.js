@@ -10,7 +10,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import ubc from "./company/ubc.png";
-import BCCDC from "./company/BCCDC.jpg";
+import BCCDC from "./company/BCCDC.png";
 
 import email from "./socials/email.png";
 import linkedin from "./socials/linkedin.png";

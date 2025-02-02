@@ -59,29 +59,24 @@ import {
   
   const experiences = [
     {
-      title: "Undergraduate Teaching Assistant",
-      company_name: "The University of British Columbia",
-      icon: ubc,
-      iconBg: "#383E56",
-      date: "Jan 2024 - April 2024",
-      points: [
-        // "Assisted professor in running tutorial sessions for MATH 101 - Integral Calculus.",
-        // "Mentored two sections of 80+ students, grades and provide feedback on assignments.",
-        // "Actively communicated with course team to ensure consistency in feedback given to students.",
-        // "Participated in the modifying and perfecting of rubrics/class materials",
-      ],
-    },
-    {
       title: "Data Science Research Assistant",
       company_name: "BC Centre for Disease Control",
       icon: BCCDC,
       iconBg: "#383E56",
       date: "Sept 2024 - April 2025",
       points: [
-        // "Assisted professor in running tutorial sessions for MATH 101 - Integral Calculus.",
-        // "Mentored two sections of 80+ students, grades and provide feedback on assignments.",
-        // "Actively communicated with course team to ensure consistency in feedback given to students.",
-        // "Participated in the modifying and perfecting of rubrics/class materials",
+        "Research project: Adminstrative reconstruction of clinical history of those with schizophrenia who died during the 2021 heat dome"
+      ],
+    },
+    {
+      title: "Undergraduate Teaching Assistant",
+      company_name: "The University of British Columbia",
+      icon: ubc,
+      iconBg: "#383E56",
+      date: "Jan 2024 - April 2024",
+      points: [
+        "Assisted professor in running tutorial sessions for MATH 101 - Integral Calculus.",
+        "Mentored two sections of 80+ students, grades and provide feedback on assignments."
       ],
     }
   ];
