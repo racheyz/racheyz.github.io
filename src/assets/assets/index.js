@@ -1,5 +1,9 @@
 import logo from "./logo.svg";
 
+import glassflower from "./blender/glassflower.png";
+import simpleroom from "./blender/simpleroom.png";
+import stormyocean from "./blender/stormyocean.png";
+
 import vision from "./interests/vision.png";
 import web from "./interests/web.png";
 import data from "./interests/data.png";
@@ -23,6 +27,9 @@ import resturantwebsite from "./projects/resturantwebsite.png";
 
 export {
   logo,
+  glassflower,
+  simpleroom,
+  stormyocean,
   vision,
   web,
   machine,

@@ -1,10 +1,20 @@
 import React from 'react'
+import Lightbox from "yet-another-react-lightbox";
+import Captions from "yet-another-react-lightbox/plugins/captions";
+import Counter from "yet-another-react-lightbox/plugins/counter";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+
 
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
+import { blender_images } from '../constants/data';
 import { fadeIn, textVariant } from '../utils/motion';
+import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
+import "yet-another-react-lightbox/plugins/counter.css";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
   return (
@@ -38,7 +48,10 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
   )
 }
 
+
 const Projects = () => {
+  const [open, setOpen] = React.useState(false);
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -50,7 +63,7 @@ const Projects = () => {
         <motion.p
           variants={fadeIn("","", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          Here are some personal projects that I've worked on.
+          Here are some things that I've coded!
         </motion.p>
       </div>
 
@@ -61,6 +74,29 @@ const Projects = () => {
                          {...project}
             />
         ))}
+      </div>
+
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("","", 0.1, 1)}
+          className='m-5 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+          Also some things I've create in Blender!
+        </motion.p>
+      </div>
+
+      <div>
+        <button className = 'p-5 rounded-2xl text-white font-bold bg-tertiary mx-auto block'
+                type="button" onClick={() => setOpen(true)}>
+          Click Me
+        </button>
+
+        <Lightbox
+          plugins={[Captions, Counter, Thumbnails]}
+          counter={{ container: { style: { top: "unset", bottom: 0 } } }}
+          open={open}
+          close={() => setOpen(false)}
+          slides={blender_images}
+        />
       </div>
     </>
   )
